@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: greeter
-          image: k3d-reg:5500/tekton-tutorial-greeter
+          image: docker.io/fsedano/tekton-tutorial-greeter
           resources:
             limits:
               memory: "750Mi"
